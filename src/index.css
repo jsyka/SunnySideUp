@@ -10,3 +10,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'NameFont';
+  src: url("./assets/font1.ttf")
+  format('truetype');
+}

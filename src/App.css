@@ -13,5 +13,6 @@
 
 .weather{
   position: relative;
+  top: 0px;
   left: 300px;
 }
