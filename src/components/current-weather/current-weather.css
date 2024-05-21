@@ -1,11 +1,14 @@
 .weather {
-    width: 300px;
+    width: 800px;
+    height: 500px;
     border-radius: 6px;
-    box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
-    color: #fff;
-    background-color: #333;
+    box-shadow: 10px -2px 20px 2px rgba(44, 95, 162, 0.17);
+    color: #ffffff;
     margin: 20px auto 0 auto;
     padding: 0 20px 20px 20px;
+    background-color: rgba(10, 67, 37, 0.367);
+    font-family: 'Courier New', Courier, monospace;
+    /* background-image: url(../../assets/subway.png); */
   }
   
   .top,
@@ -17,7 +20,7 @@
   
   .city {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 40px;
     line-height: 1;
     margin: 0;
     letter-spacing: 1px;
@@ -25,7 +28,7 @@
   
   .weather-description {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 1;
     margin: 0;
   }
@@ -36,7 +39,7 @@
   
   .temperature {
     font-weight: 600;
-    font-size: 70px;
+    font-size: 150px;
     width: auto;
     letter-spacing: -5px;
     margin: 10px 0;

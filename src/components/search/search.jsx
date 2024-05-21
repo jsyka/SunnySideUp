@@ -31,14 +31,16 @@ const Search = ({ onSearchChange }) => {
   };
 
   return (
+    <div className="container">
     <AsyncPaginate
-      className="container"
+      className="search-bar"
       placeholder="Search for city"
       debounceTimeout={600}
       value={search}
       onChange={handleOnChange}
       loadOptions={loadOptions}
     />
+    </div>
   );
 };
 
